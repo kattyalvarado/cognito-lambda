@@ -1,14 +1,6 @@
-# Welcome to your CDK TypeScript project
+```
+APLICACION UTILIZANDO AWS CDK, IMPLEMENTANDO COGNITO, LAMBDA, APIGATEWAY
+```
 
-This is a blank project for CDK development with TypeScript.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+Para este aplicativo utilizaremos una función lambda sencilla que invoce un hello world
+la invocación la haremos por medio de un api, y protegeremos la ruta con autenticación de user pool de COGNITO
